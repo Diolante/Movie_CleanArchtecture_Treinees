@@ -14,12 +14,13 @@ namespace Movie.UI.WebApi.Controllers
             _moviesService = moviesService;
         }
 
+        [HttpGet]
         public IActionResult Get()
         {
             return Ok(_moviesService.GetMovies());
         }
 
-        [HttpGet("{id}")]
+        [HttpGet("{id}", Name = "Get")]
         public IActionResult Get(int id)
         {
             return Ok(_moviesService.GetMovieById(id));
