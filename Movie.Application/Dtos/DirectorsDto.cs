@@ -9,13 +9,13 @@ namespace Movie.Application.Dtos
     [ExcludeFromCodeCoverage] // não entra na cobertura de teste
     public class DirectorsDto
     {
-        [JsonProperty("id")]
+        [JsonProperty("codigo")]
         public int codigo { get; set; }
 
-        [JsonProperty("name")]
+        [JsonProperty("nome")]
         public string nome { get; set; }
 
-        [JsonProperty("quant")]
+        [JsonProperty("quantidade_filmes")]
         public int quantidade_filmes { get; set; }
     }
 }
