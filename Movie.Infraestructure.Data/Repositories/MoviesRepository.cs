@@ -1,10 +1,8 @@
 ﻿using Movie.Domain.Interfaces;
 using Movie.Domain.Models;
 using Movie.Infraestructure.Data.Context;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace Movie.Infraestructure.Data.Repositories
 {

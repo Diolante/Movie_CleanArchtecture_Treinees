@@ -12,9 +12,11 @@ namespace Movie.Infraestructure.IoC
         {
             //CleanArchitecture.Application
             services.AddScoped<IMoviesService, MoviesService>();
+            services.AddScoped<IDirectorsService, DirectorsService>();
 
             //CleanArchitecture.Domain.Interfaces | CleanArchitecture.Infra.Data.Repositories
             services.AddScoped<IMoviesRepository, MoviesRepository>();
+            services.AddScoped<IDirectorsRepository, DirectorsRepository>();
         }
     }
 }
