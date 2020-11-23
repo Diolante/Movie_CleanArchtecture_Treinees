@@ -1,11 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Movie.Domain.Models;
+using System.Diagnostics.CodeAnalysis;
 
 namespace Movie.Infraestructure.Data.Context
 {
+    [ExcludeFromCodeCoverage]
     public class MovieDbContext : DbContext
     {
 
