@@ -5,10 +5,6 @@ using Movie.Application.Dtos;
 using Movie.Application.Interfaces;
 using Movie.Application.Validation;
 using Movie.UI.WebApi.Controllers;
-using System;
-using System.Collections.Generic;
-using System.Net;
-using System.Text;
 
 namespace Movie.Tests.UI.Controllers
 {
